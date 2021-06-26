@@ -39,7 +39,7 @@ class MainMenu extends Phaser.Scene {
         this.load.spritesheet('seaweed4','src/image/seaweed2.png',
         {frameWidth: 200, frameHeight: 247})
         this.load.image('logo','src/image/Tuubg.png');
-        this.load.audio('menusound','src/sound/Open.mp3')
+        this.load.audio('menusound','src/sound/Open3sha.mp3')
     }
 
     create() {
