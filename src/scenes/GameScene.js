@@ -111,11 +111,11 @@ class GameScene extends Phaser.Scene {
                 // shark.setVelocityX((Math.floor(Math.random() * -600))-300);
                 
                 if(score < 550){
-                    // shark.setVelocityX((Math.floor(Math.random() * -600))-300);
-                    shark.setVelocityX(-9999999999999999999999);
+                    shark.setVelocityX((Math.floor(Math.random() * -600))-300);
+                    // shark.setVelocityX(-9999999999999999999999);
                 }
                 else{
-                    shark.setVelocityX(-999999999999999999999);
+                    shark.setVelocityX(-999);
                 }
                 //Speed increse
                     // shark.setVelocityX(sharkSpeed);
